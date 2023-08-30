@@ -16,12 +16,12 @@ addT.addEventListener('click',function(){
      paragraph.classList.add('font-semibold','text-2xl');
      button.classList.add('font-semibold','text-white','bg-red-200','px-4');
      button2.classList.add('font-semibold','text-white','bg-amber-200','px-4');
-     tdcontainer1.classList.add('flex', 'flex-row' ,'justify-between','gap-4','p-4');
+     tdcontainer1.classList.add('flex', 'flex-row' ,'justify-between','gap-4','p-4','max-w-md');
 
      toDoContainer.appendChild(tdcontainer1);
      tdcontainer1.appendChild(paragraph);
-     tdcontainer1.appendChild(button);
      tdcontainer1.appendChild(button2);
+     tdcontainer1.appendChild(button);
       inputField.value = ''
      
      
